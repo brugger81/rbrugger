@@ -1,0 +1,79 @@
+#gMap {
+	width:800px;
+	height:419px;
+	clear: both;
+}
+
+.sitesFilter {
+	width: 100%;
+	background: #EFEDEE;
+	clear: both;
+	margin: 10px 0;
+}
+
+.sitesFilter form {
+	padding: 16px 0 16px 120px;
+	float: left;
+}
+
+.sitesFilter form label {
+	float: left;
+	font-weight: bold;
+	color: #000;
+	font-size: 13px;
+	padding: 0 10px 0 0;
+}
+
+.sitesFilter form select {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+/*sites listing*/
+
+.sitesListing {
+	width: 100%;
+	clear: both;
+	margin: 20px 0;
+	padding: 0;
+}
+.sitesListing td h2 {
+	width: 100%;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #dcdcdc;
+}
+ .content {
+	padding:15px 15px 50px;
+	width:800px;
+	font-family:helvetica, verdana;
+}
+	.content ul{margin:0; padding:0;}	
+	.content ul li.state{
+		list-style-type:none;
+		background:none;
+		float:left; width:45%;
+		padding: 0 4.9% 0 0;
+	}
+	.content ul li.state h5{
+		font-size:16px;
+		border-bottom: 1px solid #ccc;
+		margin:3px 0 7px 0; 
+		padding: 0 0 5px 0;
+	}
+		.content ul li.state li{
+			font-size:13px;
+			background:none;
+			list-style-type:none;
+			padding:0 0 4px 0;
+			margin:0;
+		}		
+		.content ul li.state li a{
+			list-style:none;
+			font-size:13px;
+			color:#666;
+			text-decoration:none;
+		}		
+			.content ul li.state li a:hover{text-decoration:underline;}			
+				
+
